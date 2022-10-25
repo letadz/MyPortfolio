@@ -1,0 +1,135 @@
+.hero {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero .hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.hero .hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .hero-name,
+.hero .hero-position {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.hero .hero-position {
+  color: var(--red-color);
+}
+
+/* Resume Button */
+.hero .btn-resume > button {
+  margin: 2rem auto;
+  padding: 0.5rem 2.125rem;
+  background: transparent;
+  border: 1px solid rgba(115, 117, 117, 0.3);
+  color: var(--black-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 1.125rem;
+  transition: 0.2s ease-in-out;
+}
+
+.hero .btn-resume > button:hover {
+  border: 1px solid rgba(115, 117, 117, 1);
+}
+
+/* arrow */
+.hero .uil-download-alt {
+  margin: 0 0 0 0.7rem;
+}
+
+/* Social Icons */
+.hero .social-content {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 1.5rem;
+  font-size: 1.7rem;
+}
+
+.hero .social-content a {
+  color: var(--black-color);
+}
+
+.hero :where(.linkedin, .github, .telegram, .instagram) {
+  display: inline-block;
+  color: var(--black-color);
+  background: var(--light-color);
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.hero :where(.linkedin, .github, .telegram, .instagram):hover,
+:where(.linkedin, .github, .telegram, .instagram):focus {
+  color: var(--light-color) !important;
+  background: var(--black-color);
+}
+
+/* Picture */
+.hero .hero-right {
+  display: grid;
+  place-items: center;
+}
+
+.hero .hero-right .pic {
+  height: 50%;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    height: 100%;
+    margin: 0 0 6rem 0;
+  }
+
+  .hero .hero-content {
+    flex-direction: column-reverse;
+  }
+
+  .hero .hero-name,
+  .hero .hero-position {
+    font-size: 2.3rem;
+    font-weight: 900;
+  }
+
+  .hero :where(.linkedin, .github, .telegram, .instagram) {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero .hero-right {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .hero-right .pic {
+    height: 70%;
+  }
+}
+
+@media (max-width:320px) {
+  .hero .hero-right .pic {
+    height: 60%;
+  }
+}

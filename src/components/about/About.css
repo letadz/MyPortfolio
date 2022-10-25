@@ -1,0 +1,68 @@
+.about {
+  margin: 0 auto 6rem;
+}
+
+.about .about-content {
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about .about-left {
+  max-width: 33rem;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about .about-left .pic {
+  max-width: 450px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: transform ease 0.3s;
+}
+
+.about .about-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.about .about-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.about .about-description,
+.about .about-skills__title {
+  font-size: 1.2rem;
+}
+
+.about .about-skills__title {
+  color: var(--gray-color);
+  /* border-bottom: 1px solid var(--gray-color); */
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+  .about .about-left .pic {
+    max-width: 350px;
+    max-height: 400px;
+  }
+
+  .about .about-content {
+    margin: 2rem auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

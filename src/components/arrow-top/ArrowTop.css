@@ -1,0 +1,9 @@
+.arrow-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  z-index: 1;
+}

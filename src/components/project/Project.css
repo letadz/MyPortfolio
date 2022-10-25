@@ -1,0 +1,132 @@
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project .project-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.project .project-content {
+  display: grid;
+  padding: 0 0 3rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.project .project-content:not(:last-child) {
+  margin: 1rem 0 3rem 0;
+}
+
+.project .proj-card {
+  width: 470px;
+  height: 270px;
+}
+
+.project .project-left {
+  width: fit-content;
+}
+
+.project .project-left img {
+  border-radius: 20px;
+  border: 1px solid rgb(192, 192, 192);
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.project .project-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project .tech-used > span {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  padding: 0.2rem 1rem;
+  background: rgba(216, 0, 0, 0.2);
+  border-radius: 5px;
+  color: var(--red-color);
+  width: fit-content;
+}
+
+.project .proj-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.project .proj-description {
+  font-size: 1.125rem;
+}
+
+.project .proj-link {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.project .proj-btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid rgba(115, 117, 117, 0.3);
+  border-radius: 20px;
+  background: transparent;
+  font-weight: 500;
+}
+
+.project .proj-btn:hover {
+  border: 1px solid var(--gray-color);
+}
+
+.project .github {
+  display: inline-block;
+  font-size: 2rem;
+  color: var(--black-color);
+  background: var(--light-color);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.project .github:hover,
+.github:focus {
+  color: var(--light-color);
+  background: var(--black-color);
+}
+
+@media (max-width: 768px) {
+  .project .project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 3rem 0;
+    gap: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .project .tech-used > span {
+    padding: 0.1rem 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .project .proj-title {
+    font-size: 2rem;
+  }
+
+  .project .proj-description {
+    font-size: 1rem;
+  }
+
+  .project .proj-card {
+    width: fit-content;
+    height: 100%;
+  }
+}
