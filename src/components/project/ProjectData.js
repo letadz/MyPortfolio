@@ -21,7 +21,7 @@ const ProjectData = () => {
 
         <div
           className="project-right"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-delay="700"
           data-aos-duration="1000"
         >
@@ -77,7 +77,7 @@ const ProjectData = () => {
 
         <div
           className="project-right"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-delay="700"
           data-aos-duration="1000"
         >
@@ -133,7 +133,7 @@ const ProjectData = () => {
 
         <div
           className="project-right"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-delay="700"
           data-aos-duration="1000"
         >

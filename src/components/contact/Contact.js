@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container">
         <div
           className="contact-content"
-          data-aos="flip-right"
+          data-aos="fade-down"
           data-aos-delay="1000"
           data-aos-duration="1000"
         >

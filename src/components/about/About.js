@@ -30,7 +30,7 @@ const About = () => {
 
           <Col
             className="about-right"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-anchor-placement="center-bottom"
             data-aos-delay="400"
             data-aos-duration="700"
