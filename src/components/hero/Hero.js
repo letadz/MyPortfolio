@@ -10,7 +10,12 @@ const Hero = () => {
     <div className="hero">
       <div className="container">
         <div className="hero-content">
-          <div className="hero-left">
+          <div
+            className="hero-left"
+            data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-duration="1500"
+          >
             <span className="hero-name">Mark Angelo</span>
             <span className="hero-position">Front-End Developer</span>
             <a
@@ -18,7 +23,7 @@ const Hero = () => {
               target="_blank"
               className="btn-resume"
               role="button"
-              rel="noopener"
+              rel="noreferrer"
             >
               <button>
                 Resume <i className="uil uil-download-alt"></i>
@@ -29,8 +34,13 @@ const Hero = () => {
             <Socials />
           </div>
 
-          <div className="hero-right">
-            <img className="pic" src={pic} alt="picture" />
+          <div
+            className="hero-right"
+            data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-duration="1500"
+          >
+            <img draggable="false" className="pic" src={pic} alt="pic" />
           </div>
         </div>
       </div>

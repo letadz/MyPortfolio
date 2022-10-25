@@ -5,9 +5,14 @@ const Contact = () => {
   return (
     <div id="contact" className="contact">
       <div className="container">
-        <div className="contact-content">
+        <div
+          className="contact-content"
+          data-aos="flip-right"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
+        >
           <div className="contact-title">
-            <span >Get In Touch</span>
+            <span>Get In Touch</span>
           </div>
 
           <div className="contact-desc">

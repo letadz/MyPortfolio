@@ -8,13 +8,23 @@ const ProjectData = () => {
     <>
       <div className="project-content">
         {/* 1 */}
-        <div className="project-left">
+        <div
+          className="project-left"
+          data-aos="fade-right"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="proj-card">
             <img src={proj1} alt="project" />
           </div>
         </div>
 
-        <div className="project-right">
+        <div
+          className="project-right"
+          data-aos="fade-left"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="tech-used">
             <span>Landing Page</span>
             <span>Web Development</span>
@@ -54,13 +64,23 @@ const ProjectData = () => {
 
       {/* 2 */}
       <div className="project-content">
-        <div className="project-left">
+        <div
+          className="project-left"
+          data-aos="fade-right"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="proj-card">
             <img src={proj2} alt="project" />
           </div>
         </div>
 
-        <div className="project-right">
+        <div
+          className="project-right"
+          data-aos="fade-left"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="tech-used">
             <span>Reactjs</span>
             <span>Web Development</span>
@@ -73,7 +93,7 @@ const ProjectData = () => {
           <div>
             <span className="proj-description">
               A website for Car services. This website is built to help
-              customers schedule to repaired their vehicles. 
+              customers schedule to repaired their vehicles.
             </span>
           </div>
 
@@ -100,13 +120,23 @@ const ProjectData = () => {
 
       {/* 3 */}
       <div className="project-content">
-        <div className="project-left">
+        <div
+          className="project-left"
+          data-aos="fade-right"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="proj-card">
             <img src={proj3} alt="project" />
           </div>
         </div>
 
-        <div className="project-right">
+        <div
+          className="project-right"
+          data-aos="fade-left"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+        >
           <div className="tech-used">
             <span>MongoDB</span>
             <span>Express</span>
@@ -121,7 +151,8 @@ const ProjectData = () => {
           <div>
             <span className="proj-description">
               A website for Car services. This website is built to help
-              customers schedule to repaired their vehicles. Just log in to book a schedule.
+              customers schedule to repaired their vehicles. Just log in to book
+              a schedule.
             </span>
           </div>
 

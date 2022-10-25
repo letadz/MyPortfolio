@@ -9,13 +9,32 @@ const About = () => {
   return (
     <div id="aboutme" className="about">
       <Container>
-        <span className="about-title">About me</span>
+        <span
+          className="about-title"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
+          About me
+        </span>
         <Row className="about-content">
-          <Col className="about-left">
+          <Col
+            className="about-left"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="400"
+            data-aos-duration="700"
+          >
             <img src={pic} className="pic" alt="pic" />
           </Col>
 
-          <Col className="about-right">
+          <Col
+            className="about-right"
+            data-aos="fade-left"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-delay="400"
+            data-aos-duration="700"
+          >
             <span className="about-description">
               I'm currently looking for an opportunity to show my potential. I
               prefer to keep learning, continue challenging myself and do
