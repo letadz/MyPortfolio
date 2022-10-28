@@ -10,7 +10,7 @@ const Project = () => {
           className="project-title"
           data-aos="fade-right"
           data-aos-delay="200"
-          data-aos-duration="1000"
+          data-aos-duration="700"
         >
           Projects
         </span>

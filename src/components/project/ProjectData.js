@@ -11,8 +11,7 @@ const ProjectData = () => {
         <div
           className="project-left"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="proj-card">
             <img src={proj1} alt="project" />
@@ -22,8 +21,7 @@ const ProjectData = () => {
         <div
           className="project-right"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="tech-used">
             <span>Landing Page</span>
@@ -67,8 +65,7 @@ const ProjectData = () => {
         <div
           className="project-left"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="proj-card">
             <img src={proj2} alt="project" />
@@ -78,8 +75,7 @@ const ProjectData = () => {
         <div
           className="project-right"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="tech-used">
             <span>Reactjs</span>
@@ -123,8 +119,7 @@ const ProjectData = () => {
         <div
           className="project-left"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="proj-card">
             <img src={proj3} alt="project" />
@@ -134,8 +129,7 @@ const ProjectData = () => {
         <div
           className="project-right"
           data-aos="fade-right"
-          data-aos-delay="700"
-          data-aos-duration="1000"
+          data-aos-delay="600"
         >
           <div className="tech-used">
             <span>MongoDB</span>
