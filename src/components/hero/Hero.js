@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 
-import pic from "../../assets/pic/2x2.JPG";
+import pic from "../../assets/pic/blob-pic.png";
 
 import Socials from "../social-icons/Socials";
 

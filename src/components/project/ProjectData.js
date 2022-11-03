@@ -7,7 +7,6 @@ const ProjectData = () => {
   return (
     <>
       <div className="project-content">
-        {/* 1 */}
         <div
           className="project-left"
           data-aos="fade-right"
