@@ -89,6 +89,7 @@
 .hero .hero-right {
   height: 100%;
   width: 50%;
+  text-align: center;
 }
 
 .hero .hero-right .pic {
