@@ -101,6 +101,12 @@
 }
 
 /* RESPONSIVE MOBILE */
+@media (max-width: 1024px) {
+  .hero .hero-right {
+    width: 60%;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     height: 100%;
