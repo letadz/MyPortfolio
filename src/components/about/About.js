@@ -35,13 +35,17 @@ const About = () => {
             data-aos-delay="400"
             data-aos-duration="700"
           >
+            {/*I'm currently looking for an opportunity to show my potential */}
+            {/* continue challenging myself and do
+              interesting things that matter,  */}
             <span className="about-description">
-              I'm currently looking for an opportunity to show my potential. I
-              prefer to keep learning, continue challenging myself and do
-              interesting things that matter, I am very passionate about
-              improving my coding skills & developing websites. Coding gives me
-              a wonderful feeling of achievement and joy which I cannot explain
-              in words.
+              I am willing to be trained and willing to learn new things. I'm
+              currently looking for
+              <span className="text-color"> entry-level position </span>
+              that suits my skills. I prefer to keep learning, I
+              am very passionate about improving my coding skills & developing
+              websites. Coding gives me a wonderful feeling of achievement and
+              joy which I cannot explain in words.
             </span>
 
             <div className="about-skills">

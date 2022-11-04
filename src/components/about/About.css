@@ -60,6 +60,10 @@
   /* border-bottom: 1px solid var(--gray-color); */
 }
 
+.about .text-color {
+  color: var(--red-color);
+}
+
 /* RESPONSIVE MOBILE */
 @media (max-width: 768px) {
   .about .about-left .pic {
