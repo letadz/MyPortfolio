@@ -130,8 +130,9 @@
   }
 
   .hero .hero-left {
-    align-items: center;
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .hero .hero-right {
