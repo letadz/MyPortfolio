@@ -104,6 +104,10 @@
 }
 
 @media (max-width: 768px) {
+  .project {
+    scroll-margin-top: 1em;
+  }
+
   .project .project-content {
     display: flex;
     flex-direction: column;

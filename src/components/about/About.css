@@ -67,6 +67,10 @@
 
 /* RESPONSIVE MOBILE */
 @media (max-width: 768px) {
+  .about {
+    scroll-margin-top: 1em;
+  }
+  
   .about .about-left .pic {
     max-width: 350px;
     max-height: 400px;
