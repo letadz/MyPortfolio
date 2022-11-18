@@ -1,6 +1,7 @@
 .project {
   display: flex;
   flex-direction: column;
+  scroll-margin-top: 4em;
 }
 
 .project .project-title {
