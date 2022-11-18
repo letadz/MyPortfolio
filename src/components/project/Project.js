@@ -4,14 +4,9 @@ import Projects from "./ProjectData";
 
 const Project = () => {
   return (
-    <div id="project" className="project">
+    <div id="project" className="project" data-aos="fade-right">
       <div className="container">
-        <span
-          className="project-title"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="700"
-        >
+        <span className="project-title" data-aos="fade-right">
           Projects
         </span>
 

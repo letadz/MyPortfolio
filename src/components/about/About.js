@@ -7,34 +7,20 @@ import Skills from "../skills/Skills";
 
 const About = () => {
   return (
-    <div id="aboutme" className="about">
+    <div
+      id="aboutme"
+      className="about"
+      data-aos="fade-right"
+      data-aos-anchor-placement="center-bottom"
+    >
       <Container>
-        <span
-          className="about-title"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          data-aos-duration="1000"
-        >
-          About me
-        </span>
+        <span className="about-title">About me</span>
         <Row className="about-content">
-          <Col
-            className="about-left"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-delay="400"
-            data-aos-duration="700"
-          >
+          <Col className="about-left">
             <img src={pic} className="pic" alt="pic" />
           </Col>
 
-          <Col
-            className="about-right"
-            data-aos="fade-right"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-delay="400"
-            data-aos-duration="700"
-          >
+          <Col className="about-right">
             {/*I'm currently looking for an opportunity to show my potential */}
             {/* continue challenging myself and do
               interesting things that matter,  */}

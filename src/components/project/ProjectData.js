@@ -7,21 +7,13 @@ const ProjectData = () => {
   return (
     <>
       <div className="project-content">
-        <div
-          className="project-left"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-left">
           <div className="proj-card">
             <img src={proj1} alt="project" />
           </div>
         </div>
 
-        <div
-          className="project-right"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-right">
           <div className="tech-used">
             <span>Landing Page</span>
             <span>Web Development</span>
@@ -61,21 +53,13 @@ const ProjectData = () => {
 
       {/* 2 */}
       <div className="project-content">
-        <div
-          className="project-left"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-left" data-aos="fade-right">
           <div className="proj-card">
             <img src={proj2} alt="project" />
           </div>
         </div>
 
-        <div
-          className="project-right"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-right" data-aos="fade-right">
           <div className="tech-used">
             <span>Reactjs</span>
             <span>Web Development</span>
@@ -115,21 +99,13 @@ const ProjectData = () => {
 
       {/* 3 */}
       <div className="project-content">
-        <div
-          className="project-left"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-left" data-aos="fade-right">
           <div className="proj-card">
             <img src={proj3} alt="project" />
           </div>
         </div>
 
-        <div
-          className="project-right"
-          data-aos="fade-right"
-          data-aos-delay="600"
-        >
+        <div className="project-right" data-aos="fade-right">
           <div className="tech-used">
             <span>MongoDB</span>
             <span>Express</span>

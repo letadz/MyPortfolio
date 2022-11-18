@@ -8,8 +8,6 @@ const Contact = () => {
         <div
           className="contact-content"
           data-aos="fade-down"
-          data-aos-delay="1000"
-          data-aos-duration="1000"
         >
           <div className="contact-title">
             <span>Get In Touch</span>

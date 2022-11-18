@@ -10,12 +10,7 @@ const Hero = () => {
     <div className="hero">
       <div className="container">
         <div className="hero-content">
-          <div
-            className="hero-left"
-            data-aos="fade-right"
-            data-aos-offset="500"
-            data-aos-duration="1500"
-          >
+          <div className="hero-left">
             <span className="hero-name">Mark Angelo</span>
             <span className="hero-position">Front-End Developer</span>
             <a
@@ -34,12 +29,7 @@ const Hero = () => {
             <Socials />
           </div>
 
-          <div
-            className="hero-right"
-            data-aos="fade-left"
-            data-aos-offset="500"
-            data-aos-duration="1500"
-          >
+          <div className="hero-right">
             <img draggable="false" className="pic" src={pic} alt="pic" />
           </div>
         </div>
