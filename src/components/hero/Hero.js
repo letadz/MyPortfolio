@@ -13,17 +13,19 @@ const Hero = () => {
           <div className="hero-left">
             <span className="hero-name">Mark Angelo</span>
             <span className="hero-position">Front-End Developer</span>
-            <a
-              href="https://drive.google.com/file/d/1Jyv1stNqkkgA4Iz_ZWwKAgNIModp20Op/view?usp=sharing"
-              target="_blank"
-              className="btn-resume"
-              role="button"
-              rel="noreferrer"
-            >
-              <button>
-                Resume <i className="uil uil-download-alt"></i>
-              </button>
-            </a>
+            <div className="link-container">
+              <a
+                href="https://drive.google.com/file/d/1uQj7hcOxViX4pl9E7chOARFq6q-s1iVW/view?usp=sharing"
+                target="_blank"
+                className="btn-resume"
+                role="button"
+                rel="noreferrer"
+              >
+                <button>
+                  Resume <i className="uil uil-download-alt" />
+                </button>
+              </a>
+            </div>
 
             {/* SocialIcons */}
             <Socials />

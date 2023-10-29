@@ -7,11 +7,7 @@ const ArrowTop = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 300) {
-        setShowScrollUp(true);
-      } else {
-        setShowScrollUp(false);
-      }
+      window.scrollY > 300 ? setShowScrollUp(true) : setShowScrollUp(false);
     });
   }, []);
 

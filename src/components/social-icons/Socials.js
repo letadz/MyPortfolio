@@ -27,7 +27,7 @@ const Socials = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               className="telegram"
               href="https://t.me/Mrkngl"
@@ -36,9 +36,9 @@ const Socials = () => {
             >
               <i className="uil uil-telegram-alt"></i>
             </a>
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <a
               className="instagram"
               href="https://www.instagram.com/mrkngl_"
@@ -47,7 +47,7 @@ const Socials = () => {
             >
               <i className="uil uil-instagram"></i>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

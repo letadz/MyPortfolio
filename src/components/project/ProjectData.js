@@ -39,14 +39,14 @@ const ProjectData = () => {
               <button className="proj-btn">Live Demo</button>
             </a>
 
-            <a
+            {/* <a
               className="github"
               href="https://github.com/letadz"
               target="_blank"
               rel="noreferrer"
             >
               <i className="uil uil-github"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -85,14 +85,14 @@ const ProjectData = () => {
               <button className="proj-btn">Live Demo</button>
             </a>
 
-            <a
+            {/* <a
               className="github"
               href="https://github.com/arbieabesamis27/Kodego-Group-Project-2"
               target="_blank"
               rel="noreferrer"
             >
               <i className="uil uil-github"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -134,14 +134,14 @@ const ProjectData = () => {
               <button className="proj-btn">Live Demo</button>
             </a>
 
-            <a
+            {/* <a
               className="github"
               href="https://github.com/letadz/kodegoCapstone"
               target="_blank"
               rel="noreferrer"
             >
               <i className="uil uil-github"></i>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

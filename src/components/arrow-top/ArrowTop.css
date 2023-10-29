@@ -6,4 +6,5 @@
   width: 70px;
   cursor: pointer;
   z-index: 1;
+  transition: bottom 0.5s ease-in-out;
 }

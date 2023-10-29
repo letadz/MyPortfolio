@@ -61,8 +61,10 @@
   /* border-bottom: 1px solid var(--gray-color); */
 }
 
-.about .text-color {
+.about .text-position {
   color: var(--red-color);
+  font-weight:500;
+
 }
 
 /* RESPONSIVE MOBILE */

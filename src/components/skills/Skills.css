@@ -1,23 +1,23 @@
 .about .cards {
-    margin: 1rem 0 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-    max-width: 45rem;
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  max-width: 45rem;
 }
 
 .about .card-item {
-    display: flex;
-    align-items: center;
-    padding: 0.1rem 0.5rem;
-    background: var(--black-color);
-    border-radius: 5px;
-    color: var(--light-color);
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0.5rem;
+  background: var(--black-color);
+  border-radius: 5px;
+  color: var(--light-color);
+  gap: 0.5rem;
 }
 
 .about .card-logo {
-    width: fit-content;
-    height: 0.813rem;
+  width: fit-content;
+  height: 0.813rem;
 }

@@ -25,12 +25,11 @@ const About = () => {
             {/* continue challenging myself and do
               interesting things that matter,  */}
             <span className="about-description">
-              I'm currently looking for
-              <span className="text-color"> entry-level position </span>
-              that suits my skills. I prefer to keep learning, I am very
-              passionate about improving my coding skills & developing websites.
-              Coding gives me a wonderful feeling of achievement and joy which I
-              cannot explain in words.
+              I'm
+              <span className="text-position"> junior front-end developer </span>I
+              prefer to keep learning, I am very passionate about improving my
+              coding skills & developing websites. Coding gives me a wonderful
+              feeling of achievement and joy which I cannot explain in words.
             </span>
 
             <div className="about-skills">
