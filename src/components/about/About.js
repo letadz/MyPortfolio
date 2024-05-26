@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./About.css";
 
-import pic from "../../assets/pic/about-profile.jpg";
+import pic from "../../assets/pic/formal.JPG";
 import Skills from "../skills/Skills";
 
 const About = () => {
@@ -26,8 +26,11 @@ const About = () => {
               interesting things that matter,  */}
             <span className="about-description">
               I'm
-              <span className="text-position"> junior front-end developer </span>I
-              prefer to keep learning, I am very passionate about improving my
+              <span className="text-position">
+                {" "}
+                junior front-end developer{" "}
+              </span>
+              I prefer to keep learning, I am very passionate about improving my
               coding skills & developing websites. Coding gives me a wonderful
               feeling of achievement and joy which I cannot explain in words.
             </span>
