@@ -63,8 +63,7 @@
 
 .about .text-position {
   color: var(--red-color);
-  font-weight:500;
-
+  font-weight: 500;
 }
 
 /* RESPONSIVE MOBILE */
@@ -72,7 +71,12 @@
   .about {
     scroll-margin-top: 1em;
   }
-  
+
+  .about .about-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
   .about .about-left .pic {
     max-width: 350px;
     max-height: 400px;

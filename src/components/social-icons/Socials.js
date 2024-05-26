@@ -26,28 +26,6 @@ const Socials = () => {
               <i className="uil uil-github"></i>
             </a>
           </li>
-
-          {/* <li>
-            <a
-              className="telegram"
-              href="https://t.me/Mrkngl"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="uil uil-telegram-alt"></i>
-            </a>
-          </li> */}
-
-          {/* <li>
-            <a
-              className="instagram"
-              href="https://www.instagram.com/mrkngl_"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="uil uil-instagram"></i>
-            </a>
-          </li> */}
         </ul>
       </div>
     </>
