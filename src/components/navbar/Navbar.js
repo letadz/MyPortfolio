@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
-import Logo from "../../assets/logo/64px.png";
+import Logo from "../../assets/icon/64px.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -31,7 +31,7 @@ const Navbar = () => {
                 onClick={() => setToggle(true)}
               />
             )}
-            
+
             {toggle && (
               <div className="mobile-list">
                 <ul className={`nav-items ${toggle ? "active" : ""}`}>

@@ -3,6 +3,8 @@ import proj2 from "../assets/project/proj2.png";
 import proj3 from "../assets/project/proj3.png";
 import proj4 from "../assets/project/proj4.png";
 import proj5 from "../assets/project/proj5.png";
+import proj6 from "../assets/project/crud.webp";
+import proj7 from "../assets/project/traxionpay.webp";
 
 export const datas = [
   {
@@ -49,5 +51,22 @@ export const datas = [
     description:
       "This application allows users to create, read, update, and delete todo items, providing a seamless and intuitive user experience.",
     link: "https://letadz-todo.vercel.app/",
+  },
+  {
+    id: 6,
+    img: proj6,
+    title: "Simple CRUD",
+    used: ["Reactjs", "TailwindCSS", "Firebase"],
+    description:
+      "This application allows users to create, read, update, and delete items.",
+    link: "https://letadz-todo.vercel.app/",
+  },
+  {
+    id: 7,
+    img: proj7,
+    title: "TraxionPay",
+    used: ["Vuejs", "Nuxtjs", "TailwindCSS", "Vuex", "Axios"],
+    description:
+      "This website, built using Vue.js, Nuxt.js, Vuex, TailwindCSS, and Axios for REST API integration. In my role, I develop new features and debug issues to ensure a smooth user experience.",
   },
 ];
