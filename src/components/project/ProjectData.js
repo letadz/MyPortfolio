@@ -36,9 +36,11 @@ const ProjectData = () => {
             </div>
 
             <div className="proj-link">
-              <a href={data.link} target="_blank" rel="noreferrer">
-                <button className="proj-btn">Live Demo</button>
-              </a>
+              {data.link && (
+                <a href={data.link} target="_blank" rel="noreferrer">
+                  <button className="proj-btn">Live Demo</button>
+                </a>
+              )}
             </div>
           </div>
         </div>
