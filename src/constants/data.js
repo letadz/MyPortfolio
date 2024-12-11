@@ -59,7 +59,7 @@ export const datas = [
     used: ["Reactjs", "TailwindCSS", "Firebase"],
     description:
       "This application allows users to create, read, update, and delete items.",
-    link: "https://react-firebase-simple-crud.vercel.app/",
+    link: "https://letadz-simple-crud.vercel.app/",
   },
   {
     id: 7,
