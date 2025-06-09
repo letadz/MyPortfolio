@@ -10,8 +10,8 @@ const ProjectData = () => {
 
   return (
     <div>
-      {datas.slice(0, showAllProjects ? datas.length : 3).map((data) => (
-        <div key={data.id} className="project-content">
+      {datas.slice(0, showAllProjects ? datas.length : 3).map((data, index) => (
+        <div key={index} className="project-content">
           <div className="project-left">
             <div className="project-card">
               <img src={data.img} alt={data.title} />
