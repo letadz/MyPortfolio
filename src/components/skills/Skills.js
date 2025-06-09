@@ -15,6 +15,8 @@ import Mysql from "../../assets/tech-skills/mysql.png";
 import Git from "../../assets/tech-skills/git.png";
 import GitHub from "../../assets/social-media/github.png";
 import Photoshop from "../../assets/tech-skills/photoshop.png";
+import Pinia from "../../assets/tech-skills/pinia.png";
+import Firebase from "../../assets/tech-skills/firebase.svg";
 
 const Skills = () => {
   return (
@@ -79,6 +81,20 @@ const Skills = () => {
         src={Nuxtjs}
         title="Nuxtjs"
         alt="Nuxtjs"
+        cardItem="card-item"
+        cardLogo="card-logo"
+      />
+      <Card
+        src={Firebase}
+        title="Firebase"
+        alt="Firebase"
+        cardItem="card-item"
+        cardLogo="card-logo"
+      />
+      <Card
+        src={Pinia}
+        title="Pinia"
+        alt="Pinia"
         cardItem="card-item"
         cardLogo="card-logo"
       />
