@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "../card/Card";
 
 import "./Skills.css";
@@ -11,7 +10,7 @@ import SASS from "../../assets/tech-skills/sass.png";
 import Reactjs from "../../assets/tech-skills/react.png";
 import Vuejs from "../../assets/tech-skills/vuejs.png";
 import Nuxtjs from "../../assets/tech-skills/nuxtjs.png";
-import Mysql from "../../assets/tech-skills/mysql.png";
+// import Mysql from "../../assets/tech-skills/mysql.png";
 import Git from "../../assets/tech-skills/git.png";
 import GitHub from "../../assets/social-media/github.png";
 import Photoshop from "../../assets/tech-skills/photoshop.png";
@@ -98,13 +97,13 @@ const Skills = () => {
         cardItem="card-item"
         cardLogo="card-logo"
       />
-      <Card
+      {/* <Card
         src={Mysql}
         title="Mysql"
         alt="Mysql"
         cardItem="card-item"
         cardLogo="card-logo"
-      />
+      /> */}
       <Card
         src={Git}
         title="Git"
